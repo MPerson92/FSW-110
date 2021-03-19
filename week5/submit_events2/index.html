@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Other Html Iputs</title>
+</head>
+
+<body>
+    <form name="myCompany">
+     
+        First name: <input type="text" required /> 
+     
+     Last name: <input type="text" required />
+      
+     Age: <input type="number" required />
+     
+     Male:<input type="radio" name="decision" value="Gender"/>
+    
+     Female:<input type="radio" name="decision" value="Gender" />
+     
+     <label for="location">Choose a Destination:</label>
+     <select name="locations" id="locations">
+         <optgroup label="Beaches">
+             <option value="Beach1">Wilmington Beach</option>
+             <option value="Beach2">Miami Beach</option>
+             <option value="Beach3">Virginia Beach</option>
+         </optgroup>
+     </select>
+     
+     Dietary restrictions: <input type="checkbox" id="restriciton1" name="Broccoli" value="food">
+     <label for="restriciton1">Broccoli</label>
+     <input type="checkbox" id="restriciton2" name="Carrots" value="food">
+     <label for="restriciton2">Carrots</label>
+     <input type="checkbox" id="restriciton3" name="Chicken" value="food">
+     <label for="restriciton3">Chicken</label>
+     
+        <button>Submit</button>
+    </form>
+</body>
+
+<script src="index.js"></script>
+
+</html>
