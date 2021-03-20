@@ -8,35 +8,36 @@
 </head>
 
 <body>
-    <form name="myCompany">
+    <form name="myCompany" action="?">
      
-        First name: <input type="text" required /> 
+        First name: <input id="F1" type="text" required /> 
      
-     Last name: <input type="text" required />
+     Last name: <input id="L1" type="text" required />
       
-     Age: <input type="number" required />
+     Age: <input id="A1" type="number" required />
      
-     Male:<input type="radio" name="decision" value="Gender"/>
+     Male:<input id="M1" type="radio" name="decision" value="Gender"/>
     
-     Female:<input type="radio" name="decision" value="Gender" />
+     Female:<input id="F2" type="radio" name="decision" value="Gender" />
      
-     <label for="location">Choose a Destination:</label>
-     <select name="locations" id="locations">
-         <optgroup label="Beaches">
-             <option value="Beach1">Wilmington Beach</option>
-             <option value="Beach2">Miami Beach</option>
-             <option value="Beach3">Virginia Beach</option>
+     <label id="D1" >Choose a Destination:</label>
+     <select name="locations" id="S1">
+         <optgroup id="Place" label="Beaches">
+             <option value="Wilmington Beach">Wilmington Beach</option>
+             <option value="Miami Beach">Miami Beach</option>
+             <option value="Virginia Beach">Virginia Beach</option>
          </optgroup>
      </select>
      
-     Dietary restrictions: <input type="checkbox" id="restriciton1" name="Broccoli" value="food">
-     <label for="restriciton1">Broccoli</label>
-     <input type="checkbox" id="restriciton2" name="Carrots" value="food">
-     <label for="restriciton2">Carrots</label>
-     <input type="checkbox" id="restriciton3" name="Chicken" value="food">
-     <label for="restriciton3">Chicken</label>
+     Dietary restrictions: 
+     <input type="checkbox" id="R2" name="Broccoli" value="Broccoli">
+     <label  for="restriction1">Broccoli</label>
+     <input type="checkbox" id="R3" name="Carrots" value="Carrots">
+     <label  for="restriction2">Carrots</label>
+     <input type="checkbox" id="R4" name="Chicken" value="Chicken">
+     <label  for="restriction3">Chicken</label>
      
-        <button>Submit</button>
+        <input id="button" type="submit">Submit</input>
     </form>
 </body>
 
